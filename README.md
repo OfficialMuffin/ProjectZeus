@@ -7,4 +7,7 @@ In case you have no idea what PUBG (PlayerUnknowns Battlegrounds) is then I sugg
 
 If anyone has any ideas that I can implement, feel free to contact me :)
 
+Thanks,
+OfficialMuffin
+
 
