@@ -1,6 +1,12 @@
 package com.projectzeus.enemy;
 
 interface Enemy {
+    // Get the enemy health
+    int getHealth();
+
+    // Deal damage to the enemy
+    void dealDamage(int damage);
+    
     // Get the enemy name
     String getName();
 
