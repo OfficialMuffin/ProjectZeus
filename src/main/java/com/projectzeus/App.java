@@ -55,7 +55,7 @@ public class App {
                     System.out.println("\t> You take " + damageTaken + " damage!");
 
                     if(health < 1) {
-                        System.out.println("*****You have been killed by " + enemy + "*****");
+                        System.out.println("*****You have been killed by " + enemy.getName() + "*****");
                         break;
                     }
 
@@ -111,7 +111,7 @@ public class App {
             System.out.println(" # You have " + health + " HP left! #");
             if (rand.nextInt(100) > bandageDropChance) {
                 numHealthBandages++;
-                System.out.println(" # The " + enemy + " had " + numHealthBandages + " bandage(s)! # ");
+                System.out.println(" # The " + enemy.getName() + " had " + numHealthBandages + " bandage(s)! # ");
                 System.out.println(" # You now have " + numHealthBandages + " bandage(s). # ");
             }
             if (rand.nextInt(100) > medkitDropChance){
