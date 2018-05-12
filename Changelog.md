@@ -22,9 +22,14 @@ to make them rare
 
 ## 0.0.2 - 2018-05-12
 ### Added
-- Used Maven
-- Imported and used frameworks
+- Junit Testing to make sure there arn't any errors
+
+### Changed
+- Using Apache Mavern instead of one java file to make developing easier
+- Package name has been changed to 'com.projectzeus' for use with Maven
+- In-game welcome message now prints something better
+- Each enemy type now has their own attack damage
 
 ### Fixed
-- Fixed issue where enemy type names wouldn't show correctly 
+- Fixed issue where enemy type names wouldn't show correctly
 
