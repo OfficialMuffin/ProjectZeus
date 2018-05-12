@@ -19,6 +19,7 @@ to make them rare
 
 ### Known Issues
 - Bandages and Medkits dont add up correctly
+- Players health exceeds the maximum of 100%
 
 ## 0.0.2 - 2018-05-12
 ### Added
