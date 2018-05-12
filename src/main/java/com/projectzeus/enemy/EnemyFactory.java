@@ -8,10 +8,11 @@ public class EnemyFactory {
 	int enemy = rand.nextInt(4);
 
 	switch(enemy) {
-	0: return new AssaultRifleEnemy();
-	1: return new SMGEnemy();
-	2: return new SniperEnemy();
-	3: return new SemiAutoSniperEnemy();
+	case 0: return new AssaultRifleEnemy();
+	case 1: return new SMGEnemy();
+	case 2: return new SniperEnemy();
+	case 3: return new SemiAutoSniperEnemy();
+	default: return new AssaultRifleEnemy(); // Should never happen, but need to satisfy compiler
 	}
     }
 }

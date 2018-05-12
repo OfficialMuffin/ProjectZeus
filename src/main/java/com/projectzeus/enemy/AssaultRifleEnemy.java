@@ -3,9 +3,9 @@ package com.projectzeus.enemy;
 import java.util.Random;
 
 public class AssaultRifleEnemy implements Enemy {
-    private const String name = "Enemy with Assault Rifle";
-    private const int damageModifier = 25;
-    private const int maxHealth = 100;
+    private final String name = "Enemy with Assault Rifle";
+    private final int damageModifier = 25;
+    private final int maxHealth = 100;
 
     private int health;
     
@@ -36,6 +36,6 @@ public class AssaultRifleEnemy implements Enemy {
 
     // Calculate the attack damage for the given class of enemy
     public int getAttackDamage() {
-	rand.nextInt(damageModifier);
+	return rand.nextInt(damageModifier);
     }
 }

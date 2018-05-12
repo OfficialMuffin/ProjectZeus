@@ -1,6 +1,6 @@
 package com.projectzeus.enemy;
 
-interface Enemy {
+public interface Enemy {
     // Get the enemy health
     int getHealth();
 
