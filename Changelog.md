@@ -19,3 +19,9 @@ to make them rare
 
 ### Known Issues
 - Bandages and Medkits dont add up correctly
+
+## 0.0.2 - 2018-05-12
+### Added
+- Used Maven
+- Imported and used frameworks
+
