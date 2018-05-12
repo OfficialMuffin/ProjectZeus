@@ -1,24 +1,16 @@
-package WIP;
+package com.projectzeus;
 
 import java.util.Random;
 import java.util.Scanner;
 
-public class pubgWIP {
+import com.projectzeus.enemy.Enemy;
+import com.projectzeus.enemy.EnemyFactory;
+
+public class App {
     public static void main(String[] args) {
         //System Objects
         Scanner in = new Scanner(System.in);
         Random rand = new Random();
-
-        //Game and Enemy Variables
-        String[] enemies = { "Enemy with Assault Rifle", "Enemy with SMG", "Enemy with Sniper", "Enemy with Semi Auto Sniper"};
-        //Find a way to connect attackDamage with the appropriate enemy type
-        //Integer[] attackDamage = { 25, 15, 35, 45 };
-          int enemyAttackDamage = 25;
-          int maxEnemyHealth = 100;
-//        final int assaultAttackDamage = 25;
-//        final int smgAttackDamage = 15;
-//        final int sniperAttackDamage = 35;
-//        final int semiAutoSniperAttackDamage = 45;
 
         //Player Variables
         int health = 100;
@@ -30,7 +22,6 @@ public class pubgWIP {
         int medkitDropChance = 5; //Percentage
         int medkitHealAmount = 75; //Percentage
 
-
         //Variable for running game
         boolean running = true;
 
@@ -40,13 +31,12 @@ public class pubgWIP {
         while (running) {
             System.out.println("-------------------------------------------------------------------");
 
-            int enemyHealth = rand.nextInt(maxEnemyHealth);
-            String enemy = enemies[rand.nextInt(enemies.length)];
-            System.out.println("\t# " + enemy + " spotted! #\n");
+	    Enemy enemy = EnemyFactory.getEnemy();
+            System.out.println("\t# " + enemy.getName() + " spotted! #\n");
 
-            while (enemyHealth > 0) { //While enemy is alive
+            while (enemy.getHealth() > 0) { //While enemy is alive
                 System.out.println("\tYour HP: " + health);
-                System.out.println("\t" + enemy + " HP: " + enemyHealth);
+                System.out.println("\t" + enemy.getName() + " HP: " + enemy.getHealth());
                 System.out.println("\n\tWhat would you like to do?");
                 System.out.println("\t1. Attack");
                 System.out.println("\t2. Use Bandage");
@@ -56,12 +46,12 @@ public class pubgWIP {
                 String input = in.nextLine();
                 if(input.equals("1")) {
                     int damageDealt = rand.nextInt(playerAttackDamage);
-                    int damageTaken = rand.nextInt(enemyAttackDamage);
+                    int damageTaken = enemy.getAttackDamage();
 
-                    enemyHealth -= damageDealt;
+		    enemy.dealDamage(damageDealt);
                     health -= damageTaken;
 
-                    System.out.println("\t> You hit " + enemy + " for " + damageDealt + " damage.");
+                    System.out.println("\t> You hit " + enemy.getName() + " for " + damageDealt + " damage.");
                     System.out.println("\t> You take " + damageTaken + " damage!");
 
                     if(health < 1) {
@@ -104,7 +94,7 @@ public class pubgWIP {
 
                 }
                 else if(input.equals("4")) {
-                    System.out.println("You run away from the " + enemy + "!");
+                    System.out.println("You run away from the " + enemy.getName() + "!");
                     continue GAME;
                 }
                 else {
@@ -117,7 +107,7 @@ public class pubgWIP {
             }
             //Useful Information
             System.out.println("-------------------------------------------------------------------");
-            System.out.println(" # " + enemy + " was killed! # ");
+            System.out.println(" # " + enemy.getName() + " was killed! # ");
             System.out.println(" # You have " + health + " HP left! #");
             if (rand.nextInt(100) > bandageDropChance) {
                 numHealthBandages++;
@@ -126,7 +116,7 @@ public class pubgWIP {
             }
             if (rand.nextInt(100) > medkitDropChance){
                 numMedkits++;
-                System.out.println(" # The " + enemy + " had " + numMedkits + " medkit(s)! # ");
+                System.out.println(" # The " + enemy.getName() + " had " + numMedkits + " medkit(s)! # ");
                 System.out.println(" # You now have " + numMedkits + " medkit(s). # ");
             }
             System.out.println("-------------------------------------------------------------------");
