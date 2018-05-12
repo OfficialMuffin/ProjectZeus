@@ -1,9 +1,9 @@
-package WIP;
+package com.projectzeus;
 
 import java.util.Random;
 import java.util.Scanner;
 
-public class pubgWIP {
+public class App {
     public static void main(String[] args) {
         //System Objects
         Scanner in = new Scanner(System.in);
