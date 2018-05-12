@@ -25,3 +25,6 @@ to make them rare
 - Used Maven
 - Imported and used frameworks
 
+### Changed
+- Fixed issue where enemy type names wouldn't show correctly 
+
