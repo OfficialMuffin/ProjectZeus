@@ -1,7 +1,7 @@
 # ProjectZeus
 *****PLEASE DO NOT COPY OR DISTRIBUTE THIS PROJECT BUT YOU MAY FORK AND EDIT WITH MY PERMISSION*****
 
-![alt text][logo](https://github.com/OfficialMuffin/ProjectZeus/tree/master/Images/PUBG700x500.jpg)
+!(https://github.com/OfficialMuffin/ProjectZeus/tree/master/Images/PUBG700x500.jpg)
 
 
 This project that I will be working on when I have free time is a text-based, RPG type game with a PUBG twist.
