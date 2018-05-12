@@ -1,5 +1,5 @@
 # ProjectZeus
-*****PLEASE DO NOT COPY OR DISTRIBUTE THIS PROJECT*****
+*****PLEASE DO NOT COPY OR DISTRIBUTE THIS PROJECT BUT YOU MAY FORK AND EDIT WITH MY PERMISSION*****
 
 
 This project that I will be working on when I have free time is a text-based, RPG type game with a PUBG twist.
