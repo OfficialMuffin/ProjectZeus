@@ -16,3 +16,6 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ### Changed
 - Medkit drop chance significantly lower than bandage
 to make them rare
+
+### Known Issues
+- Bandages and Medkits dont add up correctly
