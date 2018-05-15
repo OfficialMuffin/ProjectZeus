@@ -21,6 +21,12 @@ public class App {
         int bandageDropChance = 35; //Percentage
         int medkitDropChance = 5; //Percentage
         int medkitHealAmount = 75; //Percentage
+        int numPainkillers = 0;
+        int painkillerDropChance = 15;
+        int painkillerHealAmount = 10;
+        int numEnergyDrinks = 0;
+        int energyDrinkDropChance = 20;
+        int energyDrinkHealAmount = 5;
 
         //Variable for running game
         boolean running = true;
@@ -40,8 +46,10 @@ public class App {
                 System.out.println("\n\tWhat would you like to do?");
                 System.out.println("\t1. Attack");
                 System.out.println("\t2. Use Bandage");
-                System.out.println("\t3. Use Medkit");
-                System.out.println("\t4. Keep Running");
+                System.out.println("\t3. Use Energy drink");
+                System.out.println("\t4. Use Painkillers");
+                System.out.println("\t5. Use Medkit");
+                System.out.println("\t6. Keep Running");
 
                 String input = in.nextLine();
                 if(input.equals("1")) {
@@ -77,6 +85,34 @@ public class App {
 
                 }
                 else if (input.equals("3")) {
+                    if(numEnergyDrinks > 0) {
+                        health += energyDrinkHealAmount;
+                        numEnergyDrinks--;
+                        System.out.println("\tUsing Energy Drink...");
+                        //Thread.sleep(2500);
+                        System.out.println("You have healed for " + energyDrinkHealAmount + "."
+                                + "\n\t> You now have " + health + " HP."
+                                + "\n\t> You have " + numEnergyDrinks + " energy drinks left.\n");
+                    }
+                    else {
+                        System.out.println("\t> You have no energy drinks left! Defeat enemies to pick up more!");
+                    }
+                }
+                else if (input.equals("4")) {
+                    if(numPainkillers > 0) {
+                        health += painkillerHealAmount;
+                        numPainkillers--;
+                        System.out.println("\tUsing Painkillers...");
+                        //Thread.sleep(3500);
+                        System.out.println("You have healed for " + painkillerHealAmount + "."
+                                + "\n\t> You now have " + health + " HP."
+                                + "\n\t> You have " + numPainkillers + " painkillers left.\n");
+                    }
+                    else {
+                        System.out.println("\t> You have no painkillers left! Defeat enemies to pick up more!");
+                    }
+                }
+                else if (input.equals("5")) {
                     if(numMedkits > 0) {
                         //Adjust medkit heal amount
                         health += medkitHealAmount;
@@ -90,8 +126,6 @@ public class App {
                     else {
                         System.out.println("\t> You have no medkits left! Defeat enemies to pick up more!");
                     }
-
-
                 }
                 else if(input.equals("4")) {
                     System.out.println("You run away from the " + enemy.getName() + "!");
@@ -119,6 +153,16 @@ public class App {
                 System.out.println(" # The " + enemy.getName() + " had " + numMedkits + " medkit(s)! # ");
                 System.out.println(" # You now have " + numMedkits + " medkit(s). # ");
             }
+	    if (rand.nextInt(100) > energyDrinkDropChance) {
+                numEnergyDrinks++;
+                System.out.println(" # The " + enemy.getName() + " had " + numEnergyDrinks + " energy drink(s)! # ");
+                System.out.println(" # You now have " + numEnergyDrinks + " energy drink(s). # ");
+            }
+            if (rand.nextInt(100) > painkillerDropChance) {
+                numPainkillers++;
+                System.out.println(" # The " + enemy.getName() + " had " + numPainkillers + " painkiller(s)! # ");
+                System.out.println(" # You now have " + numPainkillers + " painkiller(s). # ");
+            } 
             System.out.println("-------------------------------------------------------------------");
             System.out.println("What would you like to do now?");
             System.out.println("1. Continue Fighting");
