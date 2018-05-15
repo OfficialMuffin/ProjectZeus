@@ -34,3 +34,9 @@ to make them rare
 ### Fixed
 - Fixed issue where enemy type names wouldn't show correctly
 
+## 0.0.3 - 2018-05-15
+### Added
+- Energy Drinks
+- Painkillers
+- Option to use energy drinks and painkillers during battle
+
