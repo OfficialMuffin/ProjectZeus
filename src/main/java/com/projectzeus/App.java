@@ -32,6 +32,7 @@ public class App {
         boolean running = true;
 
         System.out.println("Welcome to PlayerUnknown's Battlegrounds Text-Based RPG!");
+        System.out.println("Made by OfficialMuffin, Edited by CWood1!");
 
         GAME:
         while (running) {
