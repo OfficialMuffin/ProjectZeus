@@ -3,8 +3,7 @@
 [![Stars](https://img.shields.io/github/stars/OfficialMuffin/ProjectZeus.svg)](https://shields.io/#/)
 [![Project Status](https://img.shields.io/badge/project%20status-Work_in_Progress-yellow.svg)](https://shields.io/#/)
 
-
-ProjectZeus
+# ProjectZeus
 
 PLEASE DO NOT COPY OR DISTRIBUTE THIS PROJECT BUT YOU MAY FORK AND EDIT WITH MY PERMISSION
 
@@ -14,11 +13,11 @@ This project that I will be working on when I have free time is a text-based, RP
 
 Below are some questions you might have:
 
-What is PUBG?
+**What is PUBG?**
 
 PUBG is a online multiplayer Battle Royale game, similar to Fortnite, H1Z1 and other popular Battle Royale style games. It is currently available on Mac, Windows, Android and iOS devices and quite recently Xbox and PlayStation.
 
-How do you play PUBG?
+**How do you play PUBG?**
 
 In PUBG, 100 players will be sent to a deserted island without any weapons. After you jump out of a plane you must venture on your own, play with one other friend or with other squad members to grab weapons scattered around the island.
 
@@ -26,14 +25,14 @@ Your aim is to kill every last player and be the last man standing or if you're 
 
 My text-based game will take some of this concept.
 
-How do I play your Text-based game?
+**How do I play your Text-based game?**
 
 Right now, I'm working on making your lives much easier by getting a .java application that you can run on your PC without all the fiddly bits.
 
-How do I contact you?
+**How do I contact you?**
 
 There should be contact info on my github profile :)
 
 If anyone has any ideas that I can implement, change or remove, feel free to contact me :)
 
-Thanks, OfficialMuffin
+Thanks, *OfficialMuffin*
