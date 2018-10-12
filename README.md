@@ -3,7 +3,7 @@
 [![HitCount](http://hits.dwyl.com/OfficialMuffin/ProjectZeus.svg)](http://hits.dwyl.com/OfficialMuffin/ProjectZeus)
 [![Project Status](https://img.shields.io/badge/project%20status-Work_in_Progress-yellow.svg)](https://shields.io/#/)
 
-# ProjectZeus
+![PZ Title](img/Project_Zeus_Title.png)
 
 PLEASE DO NOT COPY OR DISTRIBUTE THIS PROJECT BUT YOU MAY FORK AND EDIT WITH MY PERMISSION
 
