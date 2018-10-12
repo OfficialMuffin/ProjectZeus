@@ -1,6 +1,7 @@
 [![Issues](https://img.shields.io/github/issues/OfficialMuffin/ProjectZeus.svg)](https://shields.io/#/)
 [![Forks](https://img.shields.io/github/forks/OfficialMuffin/ProjectZeus.svg)](https://shields.io/#/)
 [![Stars](https://img.shields.io/github/stars/OfficialMuffin/ProjectZeus.svg)](https://shields.io/#/)
+[![Project Status](https://img.shields.io/badge/project%20status-Work_in_Progress-yellow.svg)](https://shields.io/#/)
 
 
 ProjectZeus
