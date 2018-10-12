@@ -1,4 +1,6 @@
-[Snippet](https://img.shields.io/badge/status-WIP-orange.svg)
+[![Issues](https://img.shields.io/github/issues/OfficialMuffin/ProjectZeus.svg)](https://shields.io/#/)
+[![Forks](https://img.shields.io/github/forks/OfficialMuffin/ProjectZeus.svg)](https://shields.io/#/)
+[![Stars](https://img.shields.io/github/stars/OfficialMuffin/ProjectZeus.svg)](https://shields.io/#/)
 
 
 ProjectZeus
