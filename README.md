@@ -33,11 +33,17 @@ To run the game follow these steps:
 
 [CLICK HERE TO DOWNLOAD LATEST VERSION](https://drive.google.com/open?id=1PYxOPSCKjtJyD-ggceXc1SoT1fUd34YI)
 
+**DO NOT RUN IT!**
+
 2) Rename JAR file of your choice e.g. "PZ.jar"
 
 3) Open CMD as Administrator and type the following:
  
 _**java -jar [REPLACE WITH DIRECTORY OF JAR].jar**_
+
+If you're unsure, the directory should be something like this:
+
+C:\Users\[YOUR USERNAME]\Downloads\[JARFILE].jar
 
 4) Enjoy!!
 
