@@ -27,7 +27,23 @@ My text-based game will take some of this concept.
 
 **How do I play your Text-based game?**
 
-Right now, I'm working on making your lives much easier by getting a .java application that you can run on your PC without all the fiddly bits.
+To run the game follow these steps:
+
+1) Download the JAR file from this Google Drive link:
+
+[CLICK HERE TO DOWNLOAD LATEST VERSION](https://drive.google.com/open?id=1PYxOPSCKjtJyD-ggceXc1SoT1fUd34YI)
+
+2) Rename JAR file of your choice e.g. "PZ.jar"
+
+3) Open CMD as Administrator and type the following:
+ 
+_**java -jar [REPLACE WITH DIRECTORY OF JAR].jar**_
+
+4) Enjoy!!
+
+
+
+I will eventually make it easier for you to play without fiddling around with things.
 
 **How do I contact you?**
 

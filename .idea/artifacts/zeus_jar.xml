@@ -3,6 +3,9 @@
     <output-path>$PROJECT_DIR$/out/artifacts/zeus_jar</output-path>
     <root id="archive" name="zeus.jar">
       <element id="module-output" name="zeus" />
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
+      </element>
     </root>
   </artifact>
 </component>

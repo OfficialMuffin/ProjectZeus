@@ -34,7 +34,7 @@ to make them rare
 ### Fixed
 - Fixed issue where enemy type names wouldn't show correctly
 
-## 0.0.3 - 2018-05-15
+## 0.0.3 - 2018-05-15 [LATEST]
 ### Added
 - Energy Drinks
 - Painkillers
