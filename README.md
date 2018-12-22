@@ -43,7 +43,7 @@ _**java -jar [REPLACE WITH DIRECTORY OF JAR].jar**_
 
 If you're unsure, the directory should be something like this:
 
-C:\Users\[YOUR USERNAME]\Downloads\[JARFILE].jar
+_**C:\\Users\\[YOUR USERNAME]\\Downloads\\[JARFILE].jar**_
 
 4) Enjoy!!
 
