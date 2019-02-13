@@ -5,8 +5,6 @@
 
 ![PZ Title](img/Project_Zeus_Title.png)
 
-PLEASE DO NOT COPY OR DISTRIBUTE THIS PROJECT BUT YOU MAY FORK AND EDIT WITH MY PERMISSION
-
 ![PUBG Image](img/PUBG700x500.png)
 
 This project that I will be working on when I have free time is a text-based, RPG type game with a PUBG twist.
