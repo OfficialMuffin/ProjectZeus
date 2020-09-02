@@ -28,11 +28,7 @@ My text-based game will take some of this concept.
 
 To run the game follow these steps:
 
-1) Download the JAR file from this Google Drive link:
-
-[CLICK HERE TO DOWNLOAD LATEST VERSION](https://drive.google.com/open?id=1PYxOPSCKjtJyD-ggceXc1SoT1fUd34YI)
-
-**DO NOT RUN IT!**
+1) Download the JAR file from [HERE](https://github.com/OfficialMuffin/ProjectZeus/releases/tag/v1.0)
 
 2) Rename JAR file of your choice e.g. "PZ.jar"
 
@@ -46,14 +42,11 @@ _**C:/Users/[YOUR USERNAME]/Downloads/[JARFILE].jar**_
 
 4) Enjoy!!
 
-
-
-I will eventually make it easier for you to play without fiddling around with things.
-
 **How do I contact you?**
 
 There should be contact info on my github profile :)
 
 If anyone has any ideas that I can implement, change or remove, feel free to contact me :)
+If you would like to contribute, please contact me first.
 
 Thanks, *OfficialMuffin*
