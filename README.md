@@ -2,6 +2,7 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/02465e491486f6c16807/maintainability)](https://codeclimate.com/github/OfficialMuffin/ProjectZeus/maintainability)
 [![HitCount](http://hits.dwyl.com/OfficialMuffin/ProjectZeus.svg)](http://hits.dwyl.com/OfficialMuffin/ProjectZeus)
 [![Project Status](https://img.shields.io/badge/project%20status-Work_in_Progress-yellow.svg)](https://shields.io/#/)
+[![Java CI with Maven](https://github.com/OfficialMuffin/ProjectZeus/actions/workflows/maven.yml/badge.svg?branch=master)](https://github.com/OfficialMuffin/ProjectZeus/actions/workflows/maven.yml)
 
 ![PZ Title](img/Project_Zeus_Title.png)
 
